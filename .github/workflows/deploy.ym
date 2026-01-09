@@ -1,0 +1,20 @@
+name: CI CD TB Infra
+ 
+ on:
+ push:
+ branches:
+ - main
+ 
+ jobs:
+ build:
+ runs-on: ubuntu-latest
+ 
+ steps:
+ - name: Checkout code
+ uses: actions/checkout@v3
+ 
+ - name: Build test
+ run: echo "Build sukses"
+ 
+ - name: Deploy test
+ run: echo "Deploy otomatis berhasil"

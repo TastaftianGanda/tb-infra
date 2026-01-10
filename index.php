@@ -21,7 +21,7 @@
  $edit = mysqli_fetch_array(mysqli_query($conn,"SELECT * FROM siswa WHERE id='$_GET[edit]'"));
  }
  ?>
-<!-- deploy test --> 
+
  <h2>Data Siswa</h2>
  
  <form method="post">
